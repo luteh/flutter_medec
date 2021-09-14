@@ -21,6 +21,7 @@ class Sizes {
 
   static double get width1 => 1.w;
   static double get width4 => 4.w;
+  static double get width6 => 6.w;
   static double get width8 => 8.w;
   static double get width10 => 10.w;
   static double get width16 => 16.w;

@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_medec/app/app_pages.dart';
 import 'package:flutter_medec/app/app_themes.dart';
-import 'package:flutter_medec/presentation/pages/onboarding/onboarding_page.dart';
+import 'package:flutter_medec/core/constant/strings.dart';
+import 'package:flutter_medec/presentation/pages/splash/splash_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/route_manager.dart';
 
@@ -26,9 +27,9 @@ class MyApp extends StatelessWidget {
       designSize: const Size(375, 812),
       builder: () {
         return GetMaterialApp(
-          title: 'Flutter Demo',
+          title: Strings.appName,
           theme: AppThemes.lightTheme,
-          initialRoute: OnboardingPage.routeName,
+          initialRoute: SplashPage.routeName,
           getPages: AppPages.routes,
         );
       },
