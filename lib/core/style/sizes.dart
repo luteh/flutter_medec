@@ -7,10 +7,12 @@ class Sizes {
   static double get height4 => 4.h;
   static double get height8 => 8.h;
   static double get height10 => 10.h;
+  static double get height12 => 12.h;
   static double get height16 => 16.h;
   static double get height20 => 20.h;
   static double get height35 => 35.h;
   static double get height40 => 40.h;
+  static double get height50 => 50.h;
   static double get height76 => 76.h;
   static double get height80 => 80.h;
   static double get height90 => 90.h;
@@ -19,6 +21,8 @@ class Sizes {
   static double get height185 => 185.h;
   static double get height200 => 200.h;
 
+  static double get widthHalf => 0.5.sw;  
+  static double get widthFull => 1.sw;  
   static double get width1 => 1.w;
   static double get width4 => 4.w;
   static double get width6 => 6.w;
@@ -37,6 +41,7 @@ class Sizes {
   static double get radius10 => 10.r;
   static double get radius16 => 16.r;
   static double get radius20 => 20.r;
+  static double get radius32 => 32.r;
 
   static double get sp10 => 10.sp;
   static double get sp12 => 12.sp;
