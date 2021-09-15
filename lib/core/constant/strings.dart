@@ -8,5 +8,9 @@ class Strings {
   static const descOnboarding2 = 'Book an appointment with a\nright doctor';
   static const subtitleOnboarding3 = 'Book Diagonostic';
   static const descOnboarding3 = 'Search and book diagnostic\ntest';
-  static const textNext = 'Next';
+  static const next = 'Next';
+  static const mobileNumber = 'Mobile Number';
+  static const facebook = 'Facebook';
+  static const google = 'Google';
+  static const textAgreeTAndC = 'By continuing, you agree to Terms & Conditions';
 }

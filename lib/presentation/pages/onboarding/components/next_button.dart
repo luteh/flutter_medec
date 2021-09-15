@@ -28,7 +28,7 @@ class NextButton extends StatelessWidget {
             Sizes.height50,
           ),
         ),
-        child: const Text(Strings.textNext),
+        child: const Text(Strings.next),
       ),
     );
   }
