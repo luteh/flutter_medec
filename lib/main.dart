@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: Strings.appName,
           theme: AppThemes.lightTheme,
-          initialRoute: SignInPage.routeName,
+          initialRoute: SplashPage.routeName,
           getPages: AppPages.routes,
         );
       },
