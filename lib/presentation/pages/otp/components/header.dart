@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_medec/core/components/caption_text.dart';
+import 'package:flutter_medec/core/components/my_text.dart';
 import 'package:flutter_medec/core/constant/image_asset.dart';
 import 'package:flutter_medec/core/constant/strings.dart';
 import 'package:flutter_medec/core/style/sizes.dart';
@@ -19,8 +19,9 @@ class Header extends StatelessWidget {
         SizedBox(
           height: Sizes.height20,
         ),
-        const CaptionText(
+        const MyText(
           text: Strings.descEnterMobileNumber,
+          textType: TextType.caption,
           textAlign: TextAlign.center,
         ),
       ],
