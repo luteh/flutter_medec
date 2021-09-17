@@ -13,4 +13,12 @@ class Strings {
   static const facebook = 'Facebook';
   static const google = 'Google';
   static const textAgreeTAndC = 'By continuing, you agree to Terms & Conditions';
+  static const descEnterMobileNumber = 'Enter your mobile number we will send\nyou the OTP to verify later';
+  static const hintMobileNumber = '812345678';
+  static const submit = 'Submit';
+  static const titleEnterOtpCode = 'Enter code';
+  static const msgEnterOtpCode = 'We have sent you an SMS on +92 7020764458\nwith 6 digit verification code.';
+  static const textOtpNotReceived = 'Did not receive the code?';
+  static const resend = 'Re-send';
+  static const textCallNow = 'Get a call now';
 }

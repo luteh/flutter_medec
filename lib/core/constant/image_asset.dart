@@ -7,4 +7,5 @@ class ImageAsset {
   static const icMobileNumber = 'assets/images/ic_mobile_number.svg';
   static const icFacebook = 'assets/images/ic_facebook.svg';
   static const icGoogle = 'assets/images/ic_google.svg';
+  static const imgVerification = 'assets/images/img_verification.svg';
 }

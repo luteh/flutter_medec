@@ -4,18 +4,7 @@ import 'package:get/get.dart';
 class NavigationUtil {
   const NavigationUtil._();
 
-  static void popUntil(
-    BuildContext? context, {
-    bool closeOverlays = false,
-    dynamic result,
-  }) {
-    Get.back(
-      result: result,
-      closeOverlays: closeOverlays,
-    );
-  }
-
-  static void popUntilNew({
+  static void popUntil({
     bool closeOverlays = false,
     dynamic result,
   }) {
