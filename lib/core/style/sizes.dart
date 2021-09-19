@@ -13,6 +13,7 @@ class Sizes {
   static double get height16 => 16.h;
   static double get height20 => 20.h;
   static double get height30 => 30.h;
+  static double get height31 => 31.h;
   static double get height35 => 35.h;
   static double get height40 => 40.h;
   static double get height46 => 46.h;
@@ -24,6 +25,7 @@ class Sizes {
   static double get height100 => 100.h;
   static double get height106 => 106.h;
   static double get height143 => 143.h;
+  static double get height152 => 152.h;
   static double get height160 => 160.h;
   static double get height180 => 180.h;
   static double get height185 => 185.h;

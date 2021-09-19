@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'components/body/body.dart';
 import 'components/header/header.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,9 +10,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [
+        children: const [
           Header(),
-          Container(),
+          Body(),
         ],
       ),
     );
