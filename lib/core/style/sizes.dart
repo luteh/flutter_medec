@@ -4,9 +4,11 @@ class Sizes {
   const Sizes._();
 
   static double get height2 => 2.h;
+  static double get height3 => 3.h;
   static double get height4 => 4.h;
   static double get height8 => 8.h;
   static double get height10 => 10.h;
+  static double get height11 => 11.h;
   static double get height12 => 12.h;
   static double get height16 => 16.h;
   static double get height20 => 20.h;
@@ -20,6 +22,8 @@ class Sizes {
   static double get height80 => 80.h;
   static double get height90 => 90.h;
   static double get height100 => 100.h;
+  static double get height106 => 106.h;
+  static double get height143 => 143.h;
   static double get height160 => 160.h;
   static double get height180 => 180.h;
   static double get height185 => 185.h;
@@ -38,11 +42,13 @@ class Sizes {
   static double get width20 => 20.w;
   static double get width30 => 30.w;
   static double get width32 => 32.w;
+  static double get width33 => 33.w;
   static double get width40 => 40.w;
   static double get width48 => 48.w;
   static double get width50 => 50.w;
   static double get width52 => 52.w;
   static double get width60 => 60.w;
+  static double get width75 => 75.w;
   static double get width288 => 288.w;
 
   static double get radius2 => 2.r;
@@ -53,9 +59,11 @@ class Sizes {
   static double get radius16 => 16.r;
   static double get radius18 => 18.r;
   static double get radius20 => 20.r;
+  static double get radius24 => 24.r;
   static double get radius25 => 25.r;
   static double get radius29 => 29.r;
   static double get radius32 => 32.r;
+  static double get radius35 => 35.r;
   static double get radius200 => 200.r;
   static double get radius250 => 250.r;
 

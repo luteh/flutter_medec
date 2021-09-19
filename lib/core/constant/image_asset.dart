@@ -11,4 +11,12 @@ class ImageAsset {
   static const icHome = 'assets/images/ic_home.svg';
   static const icChat = 'assets/images/ic_chat.svg';
   static const icAccount = 'assets/images/ic_account.svg';
+  static const icDoctor = 'assets/images/ic_doctor.svg';
+  static const icMedicines = 'assets/images/ic_medicines.svg';
+  static const icDiagnostic = 'assets/images/ic_diagnostic.svg';
+  static const imgBanner = 'assets/images/img_banner.svg';
+  static const imgDoctorAvatar1 = 'assets/images/img_doctor_avatar_1.svg';
+  static const imgDoctorAvatar2 = 'assets/images/img_doctor_avatar_2.svg';
+  static const imgDoctorAvatar3 = 'assets/images/img_doctor_avatar_3.svg';
+  static const imgGivenCode = 'assets/images/img_given_code.svg';
 }

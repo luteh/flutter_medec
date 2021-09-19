@@ -27,4 +27,10 @@ class Strings {
   static const home = 'Home';
   static const chat = 'Chat';
   static const account = 'Account';
+  static const doctor = 'Doctor';
+  static const descDoctor = 'Search doctor\naround you';
+  static const medicines = 'Medicines';
+  static const descMedicines = 'Order Medicine\nto home';
+  static const diagnostic = 'Digonostic';
+  static const descDiagnostic = 'Book test at\nDoorstep';
 }
