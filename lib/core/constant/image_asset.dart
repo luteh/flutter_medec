@@ -8,4 +8,7 @@ class ImageAsset {
   static const icFacebook = 'assets/images/ic_facebook.svg';
   static const icGoogle = 'assets/images/ic_google.svg';
   static const imgVerification = 'assets/images/img_verification.svg';
+  static const icHome = 'assets/images/ic_home.svg';
+  static const icChat = 'assets/images/ic_chat.svg';
+  static const icAccount = 'assets/images/ic_account.svg';
 }

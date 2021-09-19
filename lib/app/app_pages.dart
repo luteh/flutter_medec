@@ -26,6 +26,7 @@ class AppPages {
       page: () => const OtpPage(),
     ),
     GetPage(
+      preventDuplicates: true,
       name: DashboardPage.routeName,
       page: () => const DashboardPage(),
     ),

@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_medec/app/app_pages.dart';
 import 'package:flutter_medec/app/app_themes.dart';
 import 'package:flutter_medec/core/constant/strings.dart';
-import 'package:flutter_medec/presentation/pages/sign_in/sign_in_page.dart';
+import 'package:flutter_medec/presentation/pages/dashboard/dashboard_page.dart';
 import 'package:flutter_medec/presentation/pages/splash/splash_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/route_manager.dart';
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: Strings.appName,
           theme: AppThemes.lightTheme,
-          initialRoute: SplashPage.routeName,
+          initialRoute: DashboardPage.routeName,
           getPages: AppPages.routes,
         );
       },

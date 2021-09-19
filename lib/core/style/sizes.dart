@@ -51,6 +51,7 @@ class Sizes {
   static double get radius10 => 10.r;
   static double get radius12 => 12.r;
   static double get radius16 => 16.r;
+  static double get radius18 => 18.r;
   static double get radius20 => 20.r;
   static double get radius25 => 25.r;
   static double get radius29 => 29.r;
