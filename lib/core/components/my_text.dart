@@ -58,6 +58,8 @@ class MyText extends StatelessWidget {
   final TextAlign? textAlign;
   final Color? color;
   final Function()? onTap;
+  final double? height, fontSize;
+  final int? maxLines;
   const MyText({
     Key? key,
     required this.text,
@@ -65,18 +67,27 @@ class MyText extends StatelessWidget {
     this.color,
     this.textType = TextType.bodyText2,
     this.onTap,
+    this.height,
+    this.maxLines,
+    this.fontSize,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
-      child: Text(
-        text,
-        style: textType.style?.copyWith(
-          color: color,
+      child: SizedBox(
+        height: height,
+        child: Text(
+          text,
+          style: textType.style?.copyWith(
+            color: color,
+            fontSize: fontSize,
+          ),
+          overflow: TextOverflow.ellipsis,
+          maxLines: maxLines,
+          textAlign: textAlign,
         ),
-        textAlign: textAlign,
       ),
     );
   }

@@ -15,8 +15,8 @@ class ImageAsset {
   static const icMedicines = 'assets/images/ic_medicines.svg';
   static const icDiagnostic = 'assets/images/ic_diagnostic.svg';
   static const imgBanner = 'assets/images/img_banner.png';
-  static const imgDoctorAvatar1 = 'assets/images/img_doctor_avatar_1.svg';
-  static const imgDoctorAvatar2 = 'assets/images/img_doctor_avatar_2.svg';
-  static const imgDoctorAvatar3 = 'assets/images/img_doctor_avatar_3.svg';
+  static const imgDoctorAvatar1 = 'assets/images/img_doctor_avatar_1.png';
+  static const imgDoctorAvatar2 = 'assets/images/img_doctor_avatar_2.png';
+  static const imgDoctorAvatar3 = 'assets/images/img_doctor_avatar_3.png';
   static const imgGivenCode = 'assets/images/img_given_code.svg';
 }
