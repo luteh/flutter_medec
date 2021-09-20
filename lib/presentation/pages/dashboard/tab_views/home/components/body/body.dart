@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_medec/core/style/sizes.dart';
 import 'package:flutter_medec/presentation/pages/dashboard/tab_views/home/components/body/banner/banner_section.dart';
+import 'package:flutter_medec/presentation/pages/dashboard/tab_views/home/components/body/given_code/given_code_section.dart';
 import 'package:flutter_medec/presentation/pages/dashboard/tab_views/home/components/body/nearby_doctors/nearby_doctors_section.dart';
 
 class Body extends StatelessWidget {
@@ -15,6 +16,7 @@ class Body extends StatelessWidget {
         ),
         const BannerSection(),
         const NearbyDoctorsSection(),
+        const GivenCodeSection(),
       ],
     );
   }

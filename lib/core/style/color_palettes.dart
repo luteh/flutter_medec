@@ -11,6 +11,7 @@ class ColorPalettes {
   static const kGrey = Color(0xff94a5a6);
   static const kLightGrey = Color(0xfff5f5f5);
   static const kDivider = Color(0xffECECEC);
+  static const bgGrey = Color(0xffFBFBFB);
 
   static const kGreyBackground = kLightGrey;
 

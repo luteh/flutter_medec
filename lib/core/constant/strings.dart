@@ -35,4 +35,5 @@ class Strings {
   static const descDiagnostic = 'Book test at\nDoorstep';
   static const titleNearbyDoctors = 'Doctors nearby you';
   static const seeAll = 'See All';
+  static const labelGivenCode = 'Share the\nGiven Code';
 }

@@ -50,11 +50,13 @@ class Sizes {
   static double get width8 => 8.w;
   static double get width10 => 10.w;
   static double get width12 => 12.w;
+  static double get width14 => 14.w;
   static double get width16 => 16.w;
   static double get width17 => 17.w;
   static double get width18 => 18.w;
   static double get width20 => 20.w;
   static double get width21 => 21.w;
+  static double get width28 => 28.w;
   static double get width30 => 30.w;
   static double get width32 => 32.w;
   static double get width33 => 33.w;
